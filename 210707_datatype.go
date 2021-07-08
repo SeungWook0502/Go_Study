@@ -26,4 +26,5 @@ func main(){
 	b := []byte(s)
 	s2 := string(b)
 	fmt.Println(b,s2)
+	s = s2
 }
