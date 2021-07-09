@@ -32,8 +32,8 @@ func main(){
     fmt.Println(r2)
 
 
-    r3 := calc(func(x int, y int) int { return x - y }, 10, 20)
-    fmt.Println(r3)
+    r3 := calc2(func(x int, y int) int { return x - y }, 10, 20)
+    fmt.Println("r3",r3)
 
     //Closure
     next := nextValue()
